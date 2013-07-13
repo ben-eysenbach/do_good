@@ -1,5 +1,10 @@
 do_good
 =======
+Live site here:
+
+------------
+Text copied from live site:
+
 Checking primality of x
 
 While you're reading this text, your browser is finding prime numbers.  Your probably figured that out
