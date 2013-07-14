@@ -3,7 +3,7 @@ $(document).ready(function() {
 })
 
 function request(n, result) {
-  var url = "http://127.0.0.1:8000/update/?callback=?";
+  var url = "http://arcane-sea-9808.herokuapp.com/update/?callback=?";
   url = url + "&n=" + n;
   url = url + "&result=" + result;
   //alert(url);
