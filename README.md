@@ -2,6 +2,8 @@ do_good
 =======
 Live site here:
 
+http://ben_eysenbach.neocities.org/do_good.html
+
 To add to your site, add this line to your HTML header:
 
 ```
