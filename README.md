@@ -2,6 +2,11 @@ do_good
 =======
 Live site here:
 
+To add to your site, add this line to your HTML header:
+
+```
+<script src="do_good.js" type="text/javascript"></script>
+```
 ------------
 Text copied from live site:
 
