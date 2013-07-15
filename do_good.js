@@ -1,5 +1,6 @@
 $(document).ready(function() {
   request(1, 0);
+  //alert(isPrime(18));
 })
 
 function request(n, result) {
@@ -19,15 +20,13 @@ function callback(data) {
 
 
 function isPrime(n) {
-  result = 1;
   var i;
   for (i=2; i<=Math.floor(Math.sqrt(n)); i++) {
     if (n%i === 0) {
-      result=0;
-      break;
+      return 0;
     }
   }
-  return result;
+  return 1;
 }
 
 function hi() {
