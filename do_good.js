@@ -24,6 +24,7 @@ function isPrime(n) {
   for (i=2; i<=Math.floor(Math.sqrt(n)); i++) {
     if (n%i === 0) {
       result=0;
+      break;
     }
   }
   return result;
