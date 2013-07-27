@@ -13,7 +13,7 @@ function request(n, result) {
 
 function callback(data) {
   n = data.n;
-  document.getElementById("number").innerHTML = n;
+  $("#number").val(n);
   result = isPrime(n);
   setTimeout(function() {request(n, result);}, 100);
 }
