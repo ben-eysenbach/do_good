@@ -1,8 +1,9 @@
 do_good
 =======
-Live site here:
+Live site [here](http://ben_eysenbach.neocities.org/do_good.html)
 
-http://ben_eysenbach.neocities.org/do_good.html
+Update: I've stopped running the backend server which distributed tasks (primes to check) to users and collected their responses. I want to look into using some sort of distributed database to achieve the same result, but that would be robust against a failure in the central server. It'll probably use [WebRTC](http://www.webrtc.org/); I like the looks of [PrimeCoin](http://primecoin.io/). Fork if interested!
+
 
 To add to your site, add this line to your HTML header:
 
